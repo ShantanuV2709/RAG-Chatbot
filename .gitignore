@@ -24,7 +24,19 @@ backend/*.pyc
 backend/.env
 backend/.DS_Store
 
+# ChromaDB persistence
+backend/chroma_db/
+backend/*.db
+
+# Python cache and testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/*.egg-info/
+
 # === OS & Editor ignores ===
 .DS_Store
 Thumbs.db
 *.swp
+.vscode/
+.idea/
